@@ -4,8 +4,10 @@ const svgToMiniDataURI = require('mini-svg-data-uri');
 
 module.exports = {
   mode: 'production',
-  entry: "./src/index.js",
+  entry: './src/index.js',
   output: {
+    filename: '[name].js',
+    chunkFilename: '[name].bundle.js',
     path: path.resolve(__dirname, 'build'),
   },
   module: {
@@ -52,12 +54,6 @@ module.exports = {
       },
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, "public", "index.html"),
-      favicon: "./build/favicons/favicon.ico",
-    }),
-  ],
   resolve: {
     alias: {
       react: path.resolve('./node_modules/react')
