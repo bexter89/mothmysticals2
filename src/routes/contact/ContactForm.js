@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
-import Alert from "react-bootstrap/Alert";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
-import Image from "react-bootstrap/Image";
-import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import FormSentConfirmation from './FormSentConfirmation'
 import "./ContactForm.css";
@@ -27,8 +24,8 @@ export default function ContactForm() {
     pronouns: "",
   });
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleSubmit(event) {
+    event.preventDefault();
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();

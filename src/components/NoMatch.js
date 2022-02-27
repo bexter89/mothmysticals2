@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import skull from "../../assets/imgs/MM_skulls_WEB.jpg";
+import skull from "./assets/imgs/MM_skulls_WEB.jpg";
 
 const NoMatch = () => {
   const navigate = useNavigate();

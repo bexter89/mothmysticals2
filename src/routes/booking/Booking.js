@@ -1,10 +1,8 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Form from "react-bootstrap/Form";
 import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import wolf from "../../../assets/imgs/MM_MOON_WEB.jpg";
+import wolf from "../../assets/imgs/MM_MOON_WEB.jpg";
 import "./booking.css";
 
 function Booking() {

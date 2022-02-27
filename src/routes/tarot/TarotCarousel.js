@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-import Row from "react-bootstrap/Row";
-import Image from "react-bootstrap/Image";
-import Col from "react-bootstrap/Col";
-import moth_logo from '../../../assets/imgs/moth_logo.png'
+import React from "react";
+import moth_logo from '../../assets/imgs/moth_logo.png'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './TarotCarousel.css';

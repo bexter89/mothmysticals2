@@ -1,13 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import About from '../about/About';
 import Contact from '../contact/Contact';
 import Hero from '../hero/Hero'
 import Tarot from '../tarot/Tarot'
 import Booking from '../booking/Booking'
-import moth from '../../../assets/imgs/moth_logo.png';
 
 const Home = () => {
 

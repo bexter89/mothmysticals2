@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 import "./Hero.css";
 
 export default function Hero() {
@@ -15,10 +12,10 @@ export default function Hero() {
     return () => {
       isMounted = false;
     };
-  }, [window.pageYOffset]);
+  }, []);
 
   function parallaxShift(e) {
-    setOffset(window.pageYOffset);
+    setOffset(window.scrollY);
   }
 
   return (

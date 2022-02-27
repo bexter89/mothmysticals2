@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
-import dog from "../../../assets/imgs/MM_MOON_WEB.jpg";
 import '../../routes/tarot/tarot.css'
 
 const Decks = () => {

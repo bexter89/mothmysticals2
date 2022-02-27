@@ -3,8 +3,8 @@
   src: local("Displace"),
       url("https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/Displace.otf") format("opentype"),
       url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/Displace.ttf') format('truetype'),
-      url('../public/fonts/PaloSanto.woff2') format('woff2'),
-      url('../public/fonts/PaloSanto.woff') format('woff');
+      url('./assets/fonts/Displace.woff2') format('woff2'),
+      url('./assets/fonts/PaloSanto.woff') format('woff');
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   src: local("PaloSanto"),
       url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/PaloSanto.otf') format("opentype"),
       url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/PaloSanto.ttf') format('truetype'),
-      url('../public/fonts/PaloSanto.woff2') format('woff2'),
-      url('../public/fonts/PaloSanto.woff') format('woff');
+      url('./assets/fonts/PaloSanto.woff2') format('woff2'),
+      url('./assets/fonts/PaloSanto.woff') format('woff');
 }
 
 @font-face {

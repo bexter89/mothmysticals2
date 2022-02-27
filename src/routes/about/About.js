@@ -1,9 +1,7 @@
 import React from "react";
-import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import Col from 'react-bootstrap/Col';
 import './About.css'
-import bioPic from '../../../assets/imgs/Gabee_About.jpg'
+import bioPic from '../../assets/imgs/Gabee_About.jpg'
 import aboutText from '../../textFiles/aboutText'
 
 

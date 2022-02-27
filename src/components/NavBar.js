@@ -1,11 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar';
-import moth from '../../assets/imgs/moth_logo.png'
+import moth from '../assets/imgs/moth_logo.png'
 import './NavBar.css'
 
 function NavBar() {

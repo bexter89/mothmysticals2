@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import ContactForm from "./ContactForm";
 import "./Contact.css";
-import yellowbgCards from "../../../assets/imgs/yellowbgCardsVertical.jpg";
+import yellowbgCards from "../../assets/imgs/yellowbgCardsVertical.jpg";
 
 export default function Contact() {
   return (
