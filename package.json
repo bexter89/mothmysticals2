@@ -16,7 +16,8 @@
     "react-dom": "^16.0.0",
     "react-helmet": "^6.1.0",
     "react-multi-carousel": "^2.8.0",
-    "react-scripts": "5.0.0"
+    "react-scripts": "5.0.0",
+    "url-loader": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
