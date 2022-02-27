@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Displace';
+  src: local("Displace"),
+      url("https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/Displace.otf") format("opentype"),
+      url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/Displace.ttf') format('truetype'),
+      url('../public/fonts/PaloSanto.woff2') format('woff2'),
+      url('../public/fonts/PaloSanto.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PaloSanto';
+  src: local("PaloSanto"),
+      url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/PaloSanto.otf') format("opentype"),
+      url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/PaloSanto.ttf') format('truetype'),
+      url('../public/fonts/PaloSanto.woff2') format('woff2'),
+      url('../public/fonts/PaloSanto.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'revicons';
+  src: url('https://cdn.jsdelivr.net/gh/bexter89/Moth-Mysticals@main/assets/fonts/revicons.ttf') format('truetype');
+}
+
+html {
+  background: #FEC3D0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+body {
+  margin-top: .75rem;
+  background: #FEC3D0;
+  font-family: Displace, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.Hero {
+  padding: 0;
+  margin: 0;
+}
+
+.About {
+  background-color: #F0C33B;
+  min-height: 50vh;
+  padding: 5rem;
+  margin: 0;
+  padding-right: 10%;
+}
+
+.Tarot {
+  background-color: #84BF5E;
+  padding: 3rem 5%;
+  margin: 0;
+}
+
+.Booking {
+  background-color: #FEC3D0;
+  padding: 4rem 10%;
+  margin: 0;
+}
+
+.Shop {
+  background-color: #CC5559;
+  padding: 2.5rem 5%;
+  margin: 0;
+}
+
+.Contact {
+  background-color: #90D0DA;
+  padding: 0;
+  margin: 0;
+}
+
+a.anchor {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.App {
+  background: #FEC3D0;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+  font-family: PaloSanto, Times, serif;
+  text-transform: uppercase;
+  color: #CC5559;
+  text-shadow: 1px 1px 0px rgba(204,85,89,0.2)
+}
+
+strong {
+  color: #CC565A;
+}
+
+/**
+*  Responsive Styles
+*/
+@media (max-width: 1700px) {
+  .Booking {
+    padding: 4rem 5%;
+    margin: 0;
+  }
+  .Tarot {
+    padding: 3rem 5%;
+  }
+}
+
+
+@media (min-width: 901px) and (max-width: 1350px) {
+  .About {
+    padding: 2rem 0;
+    padding-right: 5%;
+  }
+  .Contact {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  .About {
+    padding: 3rem 2rem;
+  }
+  .Tarot {
+    padding: 2.5% 2em;
+  }
+  .Booking {
+    padding: 3rem 0;
+  }
+}
+
+
+@media (max-width: 575px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .About {
+    padding: 8vh 0;
+    margin: 0;
+  }
+  .Contact {
+    padding: 0;
+    margin: 2.28em 0;
+  }
+  .Tarot {
+    padding: 4vh 1em;
+  }
+  .Booking {
+    padding: 5.5vh 0;
+  }
+}
+
+
+

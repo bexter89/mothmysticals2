@@ -1,0 +1,143 @@
+.Hero {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-image {
+  background-color: #FEC3D0;
+	background-image: url("https://i.ibb.co/LRB1VSK/Artist-Favorites110-websize.png");
+  height: 80vh;
+  width: 100%;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 75%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 4em;
+  color: #CC5559;
+  background-color: #F2BFC8;
+  padding: 0 .5em;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255);
+}
+
+.hero-text h3 {
+  background-color: #F2BFC8;
+  font-family: Displace, 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 0px rgba(204,85,89,0.2);
+  color: #11454F;
+  font-size: 2.75em;
+  padding: 0 .25em;
+  padding-top: .125em;
+  line-height: 1.25;
+}
+
+@media (min-width: 801px) and (max-width: 1300px) {
+  .hero-image {
+    height: 70vh;
+    padding: 0;
+  }
+  .hero-text h1 {
+    font-size: 3.5em;
+    padding: 0 .25em;
+  }
+ .hero-text h3 {
+    font-size: 2em;
+    padding: 0 .2em;
+    padding-top: .13em;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 800px) {
+  .hero-image {
+    background-position: 50% 50%;
+    padding: 0;
+  }
+  .hero-text h1 {
+    font-size: 3em;
+    padding: 0 .25em;
+  }
+ .hero-text h3 {
+    font-size: 1.5em;
+    padding: 0 .2em;
+    padding-top: .13em;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero-image {
+    height: 65vh;
+    background-position: 45% 50%;
+    padding: 0;
+  }
+  .hero-text h1 {
+    font-size: 1.6em;
+    padding: 0 .22em;
+  }
+  .hero-text h3 {
+    font-size: 1em;
+    padding: 0;
+    padding-top: .13em;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .hero-image {
+    height: 75vh;
+    background-position: 35% 50%;
+    padding: 0;
+  }
+  .hero-text h1 {
+    font-size: 2.5em;
+    line-height: 1;
+    padding: .125em .22em;
+  }
+  .hero-text h3 {
+    font-size: 1.25em;
+    padding: 0;
+    padding-top: .13em;
+  }
+}
+@media (max-width: 375px) {
+  .hero-text h1 {
+    font-size: 2em;
+  }
+  .hero-text h3 {
+    font-size: 1em;
+    padding: 0;
+    padding-top: .13em;
+  }
+}
+
+@media (max-width: 300px) {
+  .hero-image {
+    height: 75vh;
+    background-position: 35% 50%;
+    padding: 0;
+  }
+  .hero-text h1 {
+    font-size: 1.75em;
+    line-height: 1;
+    padding: .125em .22em;
+  }
+  .hero-text h3 {
+    font-size: .75em;
+    padding: 0;
+    padding-top: .13em;
+  }
+}
