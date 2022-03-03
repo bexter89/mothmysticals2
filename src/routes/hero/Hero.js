@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="hero-image" style={{ backgroundPositionY: offset }}>
         <div className="hero-text" style={{ bottom: offset / 1.5 }}>
           <h1>MOTH MYSTICALS</h1>
-          <h3>Tarot. JOYería. Sustainable Art.</h3>
+          <h3>Tarot. Sustainable Art. JOYería.</h3>
         </div>
       </div>
     </>
